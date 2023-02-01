@@ -5,7 +5,7 @@ import '../messages/tr_messages.dart';
 part '../enum/date_time_ago_locale_enums.dart';
 
 class DateTimeAgo {
-  String toDateTimeAgo(
+  String toCalculate(
     DateTime date, {
     DateTimeAgoLocalesEnums locale = DateTimeAgoLocalesEnums.turkish,
     DateTime? clock,
